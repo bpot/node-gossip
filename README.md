@@ -57,7 +57,7 @@ Gossiper events:
 
 * test edge cases
 * Cluster name -- dont allow peers to accidentally join the wrong cluster
-The scuttlebutt paper mentions a couple things we don't current do:
+* The scuttlebutt paper mentions a couple things we don't current do:
   * congestion throttling
   * make digests only be random subsets
 
