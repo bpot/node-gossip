@@ -1,5 +1,4 @@
 var Gossiper = require('gossiper').Gossiper;
-var sys = require('sys');
 
 var seed1 = new Gossiper(9000, []);
 seed1.start();
