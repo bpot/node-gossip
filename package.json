@@ -1,0 +1,23 @@
+{
+  "name": "gossiper",
+  "description": "node-gossip implements a gossip protocol",
+  "version": "0.0.3",
+  "author": "Bob Potter <bobby.potter@gmail.com>",
+  "contributors": [
+    {
+      "name": "Christopher Mooney",
+      "email": "chris@dod.net"
+    }
+  ],
+  "repository": {
+    "type" : "git",
+    "url"  : "git://github.com/bpot/node-gossip.git" 
+  },
+  "keywords": ["gossip"],
+  "dependencies": {
+    "msgpack"     : ">= 0.0.0"
+  },
+  "main": "index.js",
+  "scripts": { "test": "expresso -I lib test/*" },
+  "engines": { "node": "0.4.x || 0.5.x || 0.6.x || 0.7.x || 0.8.x || 0.9.x" }
+}

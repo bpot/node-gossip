@@ -34,7 +34,7 @@ Check out the the scripts in the simulations/ directory for some examples.
 
 Gossiper methods:
 
-    allPeeers()
+    allPeers()
     livePeers()
     deadPeers()
     peerValue(peer, key)
